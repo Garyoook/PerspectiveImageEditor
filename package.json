@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "author": "Gary Gao <yg9418@ic.ac.uk>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@techstark/opencv-js": "^4.7.0-release.1",
+    "umi": "^4.0.71"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3"
+  }
+}

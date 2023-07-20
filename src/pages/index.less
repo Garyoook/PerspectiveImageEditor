@@ -1,0 +1,78 @@
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-card {
+    margin: 10px;
+}
+
+.image-card img,
+.image-card canvas {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+//
+
+canvas {
+    border: 1px solid black;
+    width: 80vw;
+    height: 60vh;
+}
+
+#status {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#homography-grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "1 | 2 | 3"
+        "4 | 5 | 6"
+        "7 | 8 | 9";
+}
+
+.homography-input {
+    text-align: center;
+}
+
+#homography-1 {
+    grid-area: 1;
+}
+#homography-2 {
+    grid-area: 2;
+}
+#homography-3 {
+    grid-area: 3;
+}
+#homography-4 {
+    grid-area: 4;
+}
+#homography-5 {
+    grid-area: 5;
+}
+#homography-6 {
+    grid-area: 6;
+}
+#homography-7 {
+    grid-area: 7;
+}
+#homography-8 {
+    grid-area: 8;
+}
+#homography-9 {
+    grid-area: 9;
+}
